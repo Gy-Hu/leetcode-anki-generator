@@ -1,8 +1,12 @@
 # LeetCode Anki 卡片生成器
 
-该项目帮助你将 LeetCode 题库生成 Anki 卡片。什么是[Anki卡片](https://apps.ankiweb.net/)？**史上最强间隔记忆软件**。
+还在为忘记 LeetCode 题解而苦恼吗？刷过的题目转眼就忘，复习效率低下，导致面试屡屡翻车？
 
-目前项目的LeetCode题库是[最受欢迎的 100 道题](https://leetcode.cn/studyplan/top-100-liked/)。
+别担心！用 Anki 的间隔记忆法，将你的 LeetCode 题解转化为高效的学习卡片，让每一道题都牢牢记在脑海中。通过记忆你的题解，快速掌握算法思维，提升刷题效率，轻松应对算法测试！
+
+哦！对了，什么是[Anki卡片](https://apps.ankiweb.net/)？我称之为**史上最强间隔记忆软件**。本项目假设你已经了解过Anki，如果不了解，建议先找几个资料看看，然后再了解本项目的使用。
+
+目前项目涵盖 [最受欢迎的 100 道题](https://leetcode.cn/studyplan/top-100-liked/)，让你的复习更加精准高效。
 
 如果有需要定制其他的，可以
 
