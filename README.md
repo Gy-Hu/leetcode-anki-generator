@@ -1,5 +1,7 @@
 # LeetCode Anki 卡片生成器
 
+[ChangeLog](#changelog)
+
 还在为忘记 LeetCode 题解而苦恼吗？刷过的题目转眼就忘，复习效率低下，导致面试屡屡翻车？
 
 别担心！用 Anki 的间隔记忆法，将你的 LeetCode 题解转化为高效的学习卡片，让每一道题都牢牢记在脑海中。通过记忆你的题解，快速掌握算法思维，提升刷题效率，轻松应对算法测试！
@@ -18,14 +20,14 @@
 
 **卡片正面效果** 👇
 <p align='center'>
-  <img src="./screen-shots/card-front.png" alt="image"  height="300">
+  <img src="./screen-shots/card-front1.png" alt="image"  height="300">
 
 </p>
 
 **卡片反面效果** 👇
 
 <p align='center'>
-  <img src="./screen-shots/card-back.png" alt="image"  height="300">
+  <img src="./screen-shots/card-back1.png" alt="image"  height="300">
 </p>
 
 **卡片浏览** 👇
@@ -52,7 +54,7 @@
 
     ```sh
     python -m venv temp_env
-    source venv/bin/activate  # 对于 Windows 用户，使用 `venv\Scripts\activate`
+    source temp_env/bin/activate  # 对于 Windows 用户，使用 `venv\Scripts\activate`
     ```
 
 3. 根据 `requirements.txt` 文件安装所需的库：
@@ -96,6 +98,14 @@
 有想法或发现了问题？
 
 👉 [提交问题](https://github.com/janice143/leetcode-anki-generator/issues) or [提交拉取请求](https://github.com/janice143/leetcode-anki-generator/pulls)!  
+
+## ChangeLog
+
+## [0.0.2] - 2025-01-15
+
+### Added 新增
+
+- 卡片证明添加了输入框，增加用户交互，防止背题的时候无聊
 
 ## 许可证
 
