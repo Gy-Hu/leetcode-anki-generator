@@ -71,9 +71,7 @@
     </p>
 
     ```python
-    COOKIE = """
-    your_cookie_here
-    """
+    COOKIE = "your_cookie_here"
     ```
 
 5. 运行脚本生成 Anki 卡片：
