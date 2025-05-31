@@ -29,7 +29,7 @@ def create_anki_deck(cards):
     # 创建一个卡组（Deck）
     my_deck = genanki.Deck(
         2059400110,  # 卡组唯一 ID
-        "Leetcode 100",  # 卡组名称
+        "Leetcode My AC",  # 卡组名称
     )
 
     # 添加卡片到卡组
@@ -41,9 +41,9 @@ def create_anki_deck(cards):
         my_deck.add_note(note)
 
     # 导出为 .apkg 文件
-    genanki.Package(my_deck).write_to_file("leetcode_100.apkg")
+    genanki.Package(my_deck).write_to_file("leetcode_my_ac.apkg")
 
-    print("Deck exported as 'leetcode_100.apkg'")
+    print("Deck exported as 'leetcode_my_ac.apkg'")
 
 
 def fetchData():
@@ -93,7 +93,7 @@ def fetchData():
                     {
                         "front": question_detail["translatedContent"],
                         "header": question_detail["translatedTitle"],
-                        "back": f"""<pre>```javascript\n{html.escape(question_solution)}```</pre>""",
+                        "back": f"""<pre>```python\n{html.escape(question_solution)}```</pre>""",
                     }
                 )
             # else:

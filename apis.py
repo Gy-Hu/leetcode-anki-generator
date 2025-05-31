@@ -195,6 +195,7 @@ class Leetcode:
                 "limit": 20,
                 "lastKey": None,
                 "status": None,
+                "lang": "python3"
             },
             "operationName": "submissionList",
         }
